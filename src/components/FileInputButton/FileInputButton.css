@@ -1,0 +1,79 @@
+.fd-file-upload {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  margin: 8px 10px 0;
+  flex-wrap: wrap;
+}
+
+.fd-file-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: #ffffff;
+  border: 1px solid #dfe3e8;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+.fd-file-label:hover {
+  border-color: #c7ccd1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.fd-file-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.fd-file-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: 1px solid #66357d;
+  background: #8f4aaf;
+  color: white;
+}
+
+.fd-file-icon {
+  width: 18px;
+  height: 18px;
+  fill: white;
+}
+
+.fd-file-name {
+  color: #81318a;
+  max-width: 40ch;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fd-file-name.has-file {
+  color: #0f0f14;
+}
+
+.fd-file-clear {
+  appearance: none;
+  border: 1px solid #e2e6ea;
+  background: #f7f8fa;
+  padding: 6px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.fd-file-clear:hover {
+  background: #eef1f4;
+}
