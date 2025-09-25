@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="./public/favicon.ico" alt="Project logo"></a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">Continuous Sample Size Calculator</h3>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+<p align="center"> 
+  This is a work in progress calculator for A/B tests on continuous metrics.
+    <br> 
+</p>
 
-### `npm start`
+## 📝 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Usage](#usage)
+- [TODO](../TODO.md)
+- [Built Using](#built_using)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Usage <a name = "usage"></a>
+select the desired confidence level, statistical power, and minimum detectable effect (MDE), then choose whether it’s a one- or two-tailed test. Enter the number of variants (excluding the control), along with your baseline mean, standard deviation, and daily traffic. Once these values are set, the calculator will compute the required sample size per variant, the total sample size, and the estimated duration needed for your test, showing results both with and without a Bonferroni correction. This helps you quickly determine how long your experiment will take and how many samples you need to confidently detect meaningful differences.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## TODO <a name = "TODO"></a>
+- Add a table to display possible outputs given varied inputs
+- Add explanatory tooltips
+- Add examples
+- Provide warnings under certain conditions
+- Update field names for clarification
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built Using <a name = "built_using"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React](https://www.npmjs.com/package/react) - Web Framework
+- [Numeral](https://www.npmjs.com/package/numeral) - Numeric Formating
+- [smart-number-input](https://www.npmjs.com/package/smart-number-input) - Easy Numeric Inputs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Authors <a name = "authors"></a>
 
-### `npm run eject`
+- [@ShongzahToo](https://github.com/shongzahToo)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acknowledgements <a name = "acknowledgement"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [@Geoffrey Wortham](https://www.linkedin.com/in/geoffreywortham/) - Author 
+- [@Merritt Aho](https://www.linkedin.com/in/merrittaho/) - Provided the Math
