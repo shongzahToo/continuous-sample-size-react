@@ -117,7 +117,7 @@ function CalculatorInputs() {
                 </label>
 
                 <label className="calc-field">
-                    <span className="calc-label"># of Variants (Exc. control)</span>
+                    <span className="calc-label"># of Recipies (Exc. control)</span>
                     <input type="text" name="numberOfInputVars" id="numberOfInputVars" defaultValue={1} className="calc-input" />
                 </label>
 

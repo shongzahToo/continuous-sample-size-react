@@ -131,3 +131,9 @@
   transform: translateY(-50%) rotate(45deg);
   pointer-events: none;
 }
+
+#math-iframe {
+  width: 70%;
+  height: 100vh;
+  margin: 100px auto 50px auto;
+}
