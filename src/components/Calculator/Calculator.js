@@ -198,7 +198,7 @@ function Calculator() {
                         </div>
                     </label>
                     <label className="calc-field">
-                        <span className="calc-label"># of Recipies (Exc. control)</span>
+                        <span className="calc-label"># of Recipes (Exc. control)</span>
                         <input type="text" id="numberOfInputVars" defaultValue={1} className="calc-input" />
                     </label>
                     <label className="calc-field">
